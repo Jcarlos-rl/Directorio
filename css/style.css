@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.margin-top-0{
+    margin-top: 0;
+}
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+.spacing100{
+    height: 100px;
+}
+.spacing10{
+    height: 10px;
+}
+.spacing50{
+    height: 50px;
+}
+.padding-right-0{
+    padding-right: 0px;
+}
+.container95{
+    margin:0 auto;
+    max-width:1280px;
+    width:95%
+}
+@media only screen and (min-width: 601px){
+    .container95{
+        width:95%
+    }
+}
+@media only screen and (min-width: 993px){
+    .container95{
+        width:85%
+    }
+}
+/*------------------section search---------------------*/
+.city{
+    height: 550px;
+    background-image: url("../images/city.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row .input-field input{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50) !important;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.50) !important
+}
+.row .input-field input:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important
+}
+input[type=text]:not(.browser-default).validate+label {
+    color: rgba(255, 255, 255, 0.50) !important;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+    color: black !important; 
+}
+.select-dropdown{
+    color: rgba(255, 255, 255, 0.50) !important;
+}
+.select-wrapper .caret{
+    fill: rgba(255, 255, 255, 0.50) !important;
+}
+.buscar{
+    margin-top: 15px;
+}
+.transparent{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.background-transparent{
+    background-color: transparent;
+}
+.waves-effect.waves-white .waves-ripple {
+     background-color: rgba(255, 255, 255, 0.65);
+}
+/*---------------------Category------------------------------*/
+.category{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid salmon;
+}
+.subcategory{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 9px;
+    border: 1px solid white;
+}
+.content{
+    margin-top: 45px;
+}
+.salmon-text{
+    color: salmon;
+}
+.carousel-item:hover .category{
+    background-color: salmon;
+}
+.carousel-item:hover .subcategory{
+    border: 1px solid white;
+}
+.carousel-item:hover .salmon-text{
+    color: white;
+}
+.maps{
+    background-image: url(../images/maps.png);
+    background-size: cover;
+}
+.carousel{
+    height: 300px !important;
+}
+/*----------------Evento--------------------------*/
+.evento{
+    padding-left: 0px;
+}
+.card .card-content{
+    padding: 10px;
+}
+span.badge.new{
+    margin-left: 0;
+}
+span.badge.new:after{
+    content: "";
+}
+i.time{
+    margin-right: 5px;
+}
+.card .card-content-info{
+    padding: 10px;
+}
