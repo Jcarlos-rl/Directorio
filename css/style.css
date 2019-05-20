@@ -33,7 +33,7 @@ body{
 }
 @media only screen and (min-width: 993px){
     .container95{
-        width:85%
+        width:90%
     }
 }
 /*------------------section search---------------------*/
@@ -116,7 +116,7 @@ input[type=text]:not(.browser-default).validate+label {
 .evento{
     padding-left: 0px;
 }
-.card .card-content{
+.card .card-content-event{
     padding: 10px;
 }
 span.badge.new{
@@ -128,6 +128,99 @@ span.badge.new:after{
 i.time{
     margin-right: 5px;
 }
+i.time-event{
+    margin-right: 0px;
+    margin-left: -10px;
+}
 .card .card-content-info{
     padding: 10px;
+}
+.date-event{
+    padding-bottom: 5px;
+}
+.icon-text{
+    position: absolute;
+}
+/*---------------Comentarios----------------------*/
+.comentarios{
+    background-image: url(../images/party.jpg);
+    background-size: cover;
+    /*height: 350px;*/
+}
+/*------------------Destacados------------------------*/
+.card .card-content-place{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+i.social{
+    font-size: 20px;
+    padding-right: 8px;
+}
+.salmon{
+    background-color: salmon !important;
+}
+span.badge.new.web{
+    background-color: salmon !important;
+}
+span.badge.new.fb{
+    background-color: salmon !important;
+}
+span.badge.new.twi{
+    background-color: salmon !important;
+}
+span.badge.new.ins{
+    background-color: salmon !important;
+}
+span.badge.new.web:hover{
+    background-color: #4caf50 !important;
+}
+.fb{
+    color: #283593 !important;
+}
+.twi{
+    color: #1976d2 !important;
+}
+.ins{
+    color: #ff9100 !important;
+}
+/*--------------Noticias-----------------*/
+.card .card-content-new{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.card .card-image .card-new{
+    padding: 3px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*--------------------Categorias Page--------------------------------*/
+.categorias{
+    height: 350px;
+    background-image: url("../images/city.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-horizontal .card-image img{
+    height: 250px !important;
+}
+.lista{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*--------------------Establecimientos----------------------------*/
+.card .card-image .icon-favorite{
+    top: 0 !important;
+    right: 0 !important;
+    padding: 10px !important;
+}
+.num-likes{
+    font-size: 14px;
+    left: 12px;
+    top: 40px;
+    position: absolute;
 }

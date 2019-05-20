@@ -19,3 +19,9 @@ $(document).ready(function(){
         dist: -10
     });
 });
+
+$('.dropdown-trigger').dropdown();
+
+$(document).ready(function(){
+    $('.modal').modal();
+});
